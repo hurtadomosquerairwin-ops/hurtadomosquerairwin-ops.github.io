@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carlos Irwin | Desarrollador de Software</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">CI<span>.</span></a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-contact">Contacto ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="available">
+                    <span class="dot"></span>
+                    DISPONIBLE PARA NUEVOS PROYECTOS
+                </span>
+
+                <p class="hello">HOLA, SOY</p>
+
+                <h1>
+                    CARLOS IRWIN
+                    <span>HURTADO MOSQUERA.</span>
+                </h1>
+
+                <h2>
+                    Desarrollador de Software
+                    <span class="separator">|</span>
+                    <span class="typing" id="typing"></span>
+                </h2>
+
+                <p class="hero-description">
+                    Transformo ideas en experiencias digitales.
+                    Me apasiona la tecnología, la programación
+                    y construir soluciones que marquen la diferencia.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn-primary">
+                        Ver mis proyectos ↗
+                    </a>
+
+                    <a href="#contacto" class="btn-secondary">
+                        Hablemos
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank">GITHUB ↗</a>
+                    <a href="https://linkedin.com/" target="_blank">LINKEDIN ↗</a>
+                    <a href="mailto:hurtadomosquerairwin@gmail.com">EMAIL ↗</a>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="code-card">
+
+                    <div class="card-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <p>developer.js</p>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="purple">const</span> developer = {</p>
+                        <p class="indent">nombre: <span class="green">"Carlos Irwin"</span>,</p>
+                        <p class="indent">profesion: <span class="green">"Programador"</span>,</p>
+                        <p class="indent">creatividad: <span class="orange">100</span>,</p>
+                        <p class="indent">objetivo: <span class="green">"Crear el futuro"</span></p>
+                        <p>};</p>
+                        <br>
+                        <p><span class="purple">function</span> <span class="blue">crearFuturo</span>() {</p>
+                        <p class="indent">return <span class="green">"Sin límites."</span>;</p>
+                        <p>}</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="dot"></span>
+                        Siempre aprendiendo...
+                    </div>
+
+                </div>
+
+                <div class="floating-icon icon-one">{"</>"}</div>
+                <div class="floating-icon icon-two">✦</div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                SCROLL PARA DESCUBRIR ↓
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MI -->
+
+        <section class="section about" id="sobre-mi">
+
+            <div class="section-label">01 — CONÓCEME</div>
+
+            <h2 class="section-title">
+                Más que código,<br>
+                <span>creatividad y visión.</span>
+            </h2>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+                    <p>
+                        Soy Carlos Irwin Hurtado Mosquera,
+                        estudiante de desarrollo de software,
+                        apasionado por la tecnología y la innovación.
+                    </p>
+
+                    <p>
+                        Me gusta aprender, experimentar con nuevas
+                        herramientas y desarrollar proyectos que
+                        combinen funcionalidad, diseño y creatividad.
+                    </p>
+
+                    <p>
+                        Mi objetivo es crecer profesionalmente,
+                        mejorar cada día y convertir grandes ideas
+                        en productos digitales reales.
+                    </p>
+                </div>
+
+                <div class="about-stats">
+
+                    <div class="stat">
+                        <h3>∞</h3>
+                        <p>Ganas de aprender</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Mentalidad creativa</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Compromiso</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>01</h3>
+                        <p>Gran objetivo: crecer</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+
+        <section class="section skills" id="habilidades">
+
+            <div class="section-label">02 — LO QUE HAGO</div>
+
+            <h2 class="section-title">
+                Mis <span>habilidades.</span>
+            </h2>
+
+            <p class="section-description">
+                Tecnologías y herramientas que utilizo
+                para construir experiencias digitales.
+            </p>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <span class="skill-icon">🌐</span>
+                    <h3>HTML5</h3>
+                    <p>Estructura de páginas web.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3>CSS3</h3>
+                    <p>Diseño, estilos y animaciones.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactividad y funcionalidad.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Lógica y programación.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>SQL</h3>
+                    <p>Gestión de bases de datos.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">💻</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Control de versiones.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+
+        <section class="section projects" id="proyectos">
+
+            <div class="section-label">03 — MI TRABAJO</div>
+
+            <h2 class="section-title">
+                Proyectos <span>destacados.</span>
+            </h2>
+
+            <p class="section-description">
+                Ideas que toman vida a través del código.
+            </p>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image project-one">
+                        <span>01</span>
+                        <div class="project-symbol">Y.</div>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-type">DISEÑO WEB</span>
+                        <h3>Yarivah</h3>
+                        <p>
+                            Experiencia digital dedicada al mundo
+                            de la belleza y el cuidado capilar.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image project-two">
+                        <span>02</span>
+                        <div class="project-symbol">M.</div>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-type">E-COMMERCE</span>
+                        <h3>Mosquera Mobile</h3>
+                        <p>
+                            Concepto de tienda digital para
+                            comercialización de dispositivos móviles.
+                        </p>
+                        <div class="tags">
+                            <span>Diseño UI</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image project-three">
+                        <span>03</span>
+                        <div class="project-symbol">S/O</div>
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-type">BRANDING</span>
+                        <h3>StageOne</h3>
+                        <p>
+                            Concepto de agencia especializada
+                            en gestión y búsqueda de futbolistas.
+                        </p>
+                        <div class="tags">
+                            <span>Branding</span>
+                            <span>Diseño</span>
+                            <span>Identidad</span>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section class="section contact" id="contacto">
+
+            <div class="section-label">04 — CONTACTO</div>
+
+            <h2 class="section-title">
+                ¿Creamos algo <span>increíble?</span>
+            </h2>
+
+            <p>
+                Estoy listo para nuevos retos,
+                colaboraciones y oportunidades.
+            </p>
+
+            <a href="mailto:hurtadomosquerairwin@gmail.com"
+               class="btn-primary contact-btn">
+                CONTACTAR CONMIGO ↗
+            </a>
+
+            <div class="email">
+                hurtadomosquerairwin@gmail.com
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <a href="#inicio" class="logo">CI<span>.</span></a>
+
+        <p>
+            © <span id="year"></span> Carlos Irwin Hurtado Mosquera.
+            Diseñado con pasión.
+        </p>
+
+        <a href="#inicio" class="back-top">VOLVER ARRIBA ↑</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
